@@ -20,4 +20,12 @@ a, a:hover, a:visited {
   text-decoration: none;
 }
 
+.switch-wrapper {
+  position: relative;
+
+  div {
+    position: absolute;
+  }
+}
+
 @import "./typography.scss";
