@@ -1,16 +1,11 @@
 @import './styles/settings.scss';
 
-.switch-wrapper {
+.switchWrapper {
   position: relative;
 
   > :first-child ~ * {
     position: absolute;
-    animation-name: slide-in;
-    animation-duration: $duration;
+    left: 0;
+    width: 100%;
   }
-}
-
-@keyframes slide-in {
-  from { top: 200px }
-  to { top: 0 }
 }
