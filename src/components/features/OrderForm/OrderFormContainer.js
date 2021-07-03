@@ -1,6 +1,6 @@
 import {connect} from 'react-redux';
-import OrderForm from './OrderForm';
 import {getOrderOptions, setOrderOption} from '../../../redux/orderRedux';
+import OrderForm from './OrderForm';
 
 const mapStateToProps = state => ({
   options: getOrderOptions(state),
