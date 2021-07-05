@@ -4,11 +4,14 @@ import Section from '../../layout/Section/Section';
 import CountrySummary from '../../features/CountrySummary/CountrySummary';
 import PageTitle from '../../common/PageTitle/PageTitle';
 import {Grid, Row} from 'react-flexbox-grid';
+import textContent from '../../../data/textContent.json';
+
+const CountriesTextContent = textContent.pageContent.viewsContent.Countries;
 
 const Countries = ({countries}) => (
   <Section>
     <Grid>
-      <PageTitle text='All countries' />
+      <PageTitle text={CountriesTextContent.pageTitle} />
       <Row between="md">
         {Object.keys(countries).map(code => (
           <CountrySummary key={code} {...countries[code]} />

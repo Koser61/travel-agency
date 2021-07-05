@@ -7,11 +7,14 @@ import CountrySummary from '../../features/CountrySummary/CountrySummary';
 import styles from './Regions.scss';
 import {Grid, Row} from 'react-flexbox-grid';
 
-const Regions = ({regions, subregions, countries}) => (
+import textContent from '../../../data/textContent.json';
 
+const RegionsTextContent = textContent.pageContent.viewsContent.Regions;
+
+const Regions = ({regions, subregions, countries}) => (
   <Section>
     <Grid>
-      <PageTitle text='All regions' />
+      <PageTitle text={RegionsTextContent.pageTitle} />
       {Object.keys(regions).map(regionName => (
         <div key={`region-${regionName}`}>
           <h2 className={styles.name}>{regionName}</h2>

@@ -3,9 +3,11 @@ import {NavLink, Link} from 'react-router-dom';
 import styles from './Header.scss';
 import Icon from '../../common/Icon/Icon';
 import { Grid, Row, Col } from 'react-flexbox-grid';
+import textContent from '../../../data/textContent.json';
 
 class Header extends React.Component {
   render(){
+    const textData = textContent.agencyData;
     return (
       <header className={styles.component}>
         <Grid>
@@ -14,7 +16,7 @@ class Header extends React.Component {
               <Link to='/'>
                 <div className={styles.logo}>
                   <Icon name='compass' />
-                  <span className={styles.name}>Travel Agency</span>
+                  <span className={styles.name}>{textData.companyName}</span>
                 </div>
               </Link>
             </Col>
@@ -28,7 +30,7 @@ class Header extends React.Component {
             </Col>
             <Col md={3} lg={2}>
               <div className={styles.contact}>
-                <Icon name='phone' /><span>678.243.8455</span>
+                <Icon name='phone' /><span>{textData.phone}</span>
               </div>
             </Col>
           </Row>

@@ -1,0 +1,40 @@
+{
+  "agencyData": {
+    "companyName": "Travel Agency",
+    "supportAgent": "Support Agent: Linda Blair",
+    "phone": "678.243.8455",
+    "email": "support@example.com",
+    "address": "1591 Stanton Road, Boston, MA 02127"
+  },
+  "pageContent": {
+    "viewsContent": {
+      "Countries": {
+        "pageTitle": "All countries"
+      },
+      "Home": {
+        "introTitle": "Open up to the world.",
+        "introText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultricies eros eu nisl vestibulum iaculis. Maecenas dapibus lorem quis ex ornare dignissim. Donec lobortis commodo augue, vel accumsan nunc facilisis vitae. Suspendisse bibendum congue sapien ut elementum. Nunc pellentesque, tortor et dignissim fermentum, purus mi sagittis neque, ut iaculis arcu lorem nec tellus. Integer in viverra lectus, vitae sollicitudin nulla. Sed mollis at odio eu pretium. Donec porta ligula sed diam pulvinar viverra.",
+        "pros1": "Hand-picked destinations",
+        "pros2": "Best facilities",
+        "pros3": "All-inclusive trips",
+        "pros4": "24/7 Support"
+      },
+      "Info": {
+        "pageTitle": "Contact us",
+        "introText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium elementum lectus, eu laoreet sapien tristique sed. Aliquam dapibus pharetra dictum. Nunc condimentum sodales nisl eget cursus. Cras est lacus, congue quis purus at, consectetur euismod metus. Curabitur ut lobortis arcu. Nunc faucibus ultrices eros, id efficitur arcu volutpat vitae. Sed at bibendum mauris, id facilisis quam."
+      },
+      "NotFound": "Page not found :(",
+      "Regions": {
+        "pageTitle": "All regions"
+      },
+      "Trips": {
+        "pageTitle": "All trips",
+        "noResults": "Sorry, no results found. Try adjusting the filters."
+      }
+    },
+    "featuresContent": {
+
+    }
+  }
+}
+
