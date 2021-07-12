@@ -3451,7 +3451,7 @@
   dependencies:
     "homedir-polyfill" "^1.0.1"
 
-"expect@^24.9.0":
+"expect@^24.1.0", "expect@^24.9.0":
   "integrity" "sha512-wvVAx8XIol3Z5m9zvZXiyZOQ+sRJqNTIm6sGjdWlaZIeupQGO3WbYI+15D/AmEwZywL6wtJkbAbJtzkOfBuR0Q=="
   "resolved" "https://registry.npmjs.org/expect/-/expect-24.9.0.tgz"
   "version" "24.9.0"
@@ -5034,6 +5034,20 @@
     "jest-mock" "^24.9.0"
     "jest-util" "^24.9.0"
 
+"jest-extended@^0.11.5":
+  "integrity" "sha512-3RsdFpLWKScpsLD6hJuyr/tV5iFOrw7v6YjA3tPdda9sJwoHwcMROws5gwiIZfcwhHlJRwFJB2OUvGmF3evV/Q=="
+  "resolved" "https://registry.npmjs.org/jest-extended/-/jest-extended-0.11.5.tgz"
+  "version" "0.11.5"
+  dependencies:
+    "expect" "^24.1.0"
+    "jest-get-type" "^22.4.3"
+    "jest-matcher-utils" "^22.0.0"
+
+"jest-get-type@^22.4.3":
+  "integrity" "sha512-/jsz0Y+V29w1chdXVygEKSz2nBoHoYqNShPe+QgxSNjAuP1i8+k4LbQNrfoliKej0P45sivkSCh7yiD6ubHS3w=="
+  "resolved" "https://registry.npmjs.org/jest-get-type/-/jest-get-type-22.4.3.tgz"
+  "version" "22.4.3"
+
 "jest-get-type@^24.9.0":
   "integrity" "sha512-lUseMzAley4LhIcpSP9Jf+fTrQ4a1yHQwLNeeVa2cEmbCGeoZAtYPOIv8JaxLD/sUpKxetKGP+gsHl8f8TSj8Q=="
   "resolved" "https://registry.npmjs.org/jest-get-type/-/jest-get-type-24.9.0.tgz"
@@ -5087,6 +5101,15 @@
   dependencies:
     "jest-get-type" "^24.9.0"
     "pretty-format" "^24.9.0"
+
+"jest-matcher-utils@^22.0.0":
+  "integrity" "sha512-lsEHVaTnKzdAPR5t4B6OcxXo9Vy4K+kRRbG5gtddY8lBEC+Mlpvm1CJcsMESRjzUhzkz568exMV1hTB76nAKbA=="
+  "resolved" "https://registry.npmjs.org/jest-matcher-utils/-/jest-matcher-utils-22.4.3.tgz"
+  "version" "22.4.3"
+  dependencies:
+    "chalk" "^2.0.1"
+    "jest-get-type" "^22.4.3"
+    "pretty-format" "^22.4.3"
 
 "jest-matcher-utils@^24.9.0":
   "integrity" "sha512-OZz2IXsu6eaiMAwe67c1T+5tUAtQyQx27/EMEkbFAGiw52tB9em+uGbzpcgYVpA8wl0hlxKPZxrly4CXU/GjHA=="
@@ -6893,6 +6916,14 @@
   dependencies:
     "lodash" "^4.17.20"
     "renderkid" "^2.0.4"
+
+"pretty-format@^22.4.3":
+  "integrity" "sha512-S4oT9/sT6MN7/3COoOy+ZJeA92VmOnveLHgrwBE3Z1W5N9S2A1QGNYiE1z75DAENbJrXXUb+OWXhpJcg05QKQQ=="
+  "resolved" "https://registry.npmjs.org/pretty-format/-/pretty-format-22.4.3.tgz"
+  "version" "22.4.3"
+  dependencies:
+    "ansi-regex" "^3.0.0"
+    "ansi-styles" "^3.2.0"
 
 "pretty-format@^24.9.0":
   "integrity" "sha512-00ZMZUiHaJrNfk33guavqgvfJS30sLYf0f8+Srklv0AMPodGGHcoHgksZ3OThYnIvOd+8yMCn0YiEOogjlgsnA=="

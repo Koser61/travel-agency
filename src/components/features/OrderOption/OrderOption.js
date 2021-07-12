@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import OrderOptionDropdown from './OrderOptionDropdown';
 import OrderOptionIcons from './OrderOptionIcons';
 import OrderOptionNumber from './OrderOptionNumber';
-import OrderOptionCheckboxes from './OrderOptionCheckboxes';
+import OrderOptionCheckbox from './OrderOptionCheckbox';
 import OrderOptionText from './OrderOptionText';
 import OrderOptionDate from './OrderOptionDate';
 
@@ -13,7 +13,7 @@ import styles from './OrderOption.scss';
 const optionTypes = {
   dropdown: OrderOptionDropdown,
   icons: OrderOptionIcons,
-  checkboxes: OrderOptionCheckboxes,
+  checkboxes: OrderOptionCheckbox,
   number: OrderOptionNumber,
   text: OrderOptionText,
   date: OrderOptionDate,
